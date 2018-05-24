@@ -1,0 +1,25 @@
+{
+  "name": "iceproductionz/game-of-snap",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Musa Chanakira",
+      "email": "jethot@hotmail.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "IceProductionz\\GameOfSnap\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IceProductionz\\GameOfSnap\\Tests\\Unit\\": "tests/unit/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.1"
+  }
+}
